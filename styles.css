@@ -11,7 +11,6 @@
 }
 
 #slide3List {
-    font-size: 10px;
     position: relative;
     top: -1px;
     font-size: 16px;
@@ -85,4 +84,17 @@
 
 .r {
     font-size: 15px;
+}
+
+@media (max-width: 490px) {
+    #slide3List {
+        font-size: 35px;
+        text-justify: auto;
+        line-height: 50px;
+    }
+
+    #slide3Headline {
+        font-size: 36px;
+    }
+
 }
